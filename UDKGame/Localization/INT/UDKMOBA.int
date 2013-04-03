@@ -1,0 +1,76 @@
+[HUD]
+StatsKDA=K / D / A
+StatsLHD=LH / D
+MainMenu=Menu
+LevelUp=Level Up +%i
+SpellNotAvailable=Spell not available.
+SpellNotReady=Spell not ready.
+NotEnoughMana=Not enough mana.
+SpellIsMaxLevel=Spell is at max level.
+one=1
+two=2
+three=3
+four=4
+five=5
+six=6
+seven=7
+eight=8
+nine=9
+zero=0
+leftmousebutton=ML
+rightmousebutton=MR
+mousescrollup=MSU
+mousescrolldown=MSD
+equals==
+minus=-
+leftalt=LA
+rightalt=RA
+leftcontrol=LC
+rightcontrol=RC
+leftshift=LS
+rightshift=SP
+spacebar=SP
+Basics=Basics
+Upgrades=Upgrades
+Consumables=Consumables
+Attributes=Attributes
+Armaments=Armaments
+Arcane=Arcane
+Common=Common
+Support=Support
+Caster=Caster
+Weapons=Weapons
+Armor=Armor
+Artifacts=Artifacts
+View=View
+Shop=Shop
+CannotAttackInvulnerableTarget=Cannot attack an invulnerable target!
+Stash=Stash
+NotEnoughGold=Not enough gold to buy %s. Need $%i more.
+ReturnToGame=Return to Game
+Exit=Exit
+
+[Items]
+Buckler=Buckler
+Clothes=Clothes
+Dagger=Dagger
+GreatBow=Great Bow
+GreatStaff=Great Staff
+GreatSword=Great Sword
+IronwoodBranch=Ironwood Branch
+LeatherArmor=Leather Armor
+LongBow=Long Bow
+LongSword=Long Sword
+Rod=Rod
+Scroll=Scroll
+Shield=Shield
+ShortBow=Short Bow
+ShortSword=Short Sword
+SlingShot=SlingShot
+Staff=Staff
+SteelArmor=Steel Armor
+Wand=Wand
+
+[Hero]
+DemoGuy=Demo Guy
+Cathode=Cathode

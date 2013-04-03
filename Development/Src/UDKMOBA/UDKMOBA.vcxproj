@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4537A45B-F14F-4260-AB7D-7646EA9E2857}</ProjectGuid>
+    <RootNamespace>UDKDoTA</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAMessage.as" />
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAMinimapLineDrawing.as" />
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAMinimapPing.as" />
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAShopList.as" />
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAShopListItemRenderer.as" />
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBASpellIcon.as" />
+    <None Include="Classes\UDKMOBAAIController.uc" />
+    <None Include="Classes\UDKMOBAAncientObjective.uc" />
+    <None Include="Classes\UDKMOBAAttackInterface.uc" />
+    <None Include="Classes\UDKMOBABuff.uc" />
+    <None Include="Classes\UDKMOBACamera.uc" />
+    <None Include="Classes\UDKMOBACameraProperties.uc" />
+    <None Include="Classes\UDKMOBACameraProperties_Mobile.uc" />
+    <None Include="Classes\UDKMOBACameraProperties_PC.uc" />
+    <None Include="Classes\UDKMOBACamera_Mobile.uc" />
+    <None Include="Classes\UDKMOBACamera_PC.uc" />
+    <None Include="Classes\UDKMOBACheatManager.uc" />
+    <None Include="Classes\UDKMOBACommandInterface.uc" />
+    <None Include="Classes\UDKMOBACreepAIController.uc" />
+    <None Include="Classes\UDKMOBACreepFactory.uc" />
+    <None Include="Classes\UDKMOBACreepPawn.uc" />
+    <None Include="Classes\UDKMOBACreepReplicationInfo.uc" />
+    <None Include="Classes\UDKMOBACreepRoute.uc" />
+    <None Include="Classes\UDKMOBADecalActorSpawnable.uc" />
+    <None Include="Classes\UDKMOBADoT.uc" />
+    <None Include="Classes\UDKMOBADroppedItem.uc" />
+    <None Include="Classes\UDKMOBADynamicObstacle.uc" />
+    <None Include="Classes\UDKMOBAGameInfo.uc" />
+    <None Include="Classes\UDKMOBAGameProperties.uc" />
+    <None Include="Classes\UDKMOBAGameReplicationInfo.uc" />
+    <None Include="Classes\UDKMOBAGFxCreepStatusBarObject.uc" />
+    <None Include="Classes\UDKMOBAGFxHeroSelectionObject.uc" />
+    <None Include="Classes\UDKMOBAGFxHeroStatusBarObject.uc" />
+    <None Include="Classes\UDKMOBAGFxHUD.uc" />
+    <None Include="Classes\UDKMOBAGFxHUDProperties.uc" />
+    <None Include="Classes\UDKMOBAGFxMainMenuObject.uc" />
+    <None Include="Classes\UDKMOBAGFxMinimapIconObject.uc" />
+    <None Include="Classes\UDKMOBAGFxMinimapLineDrawingObject.uc" />
+    <None Include="Classes\UDKMOBAGFxShopListWidget.uc" />
+    <None Include="Classes\UDKMOBAGFxSpellIconObject.uc" />
+    <None Include="Classes\UDKMOBAGFxTowerStatusBarObject.uc" />
+    <None Include="Classes\UDKMOBAItem_Dagger.uc" />
+    <None Include="Classes\UDKMOBAItem_GreatSword.uc" />
+    <None Include="Classes\UDKMOBAGroundBlockingVolume.uc" />
+    <None Include="Classes\UDKMOBAHeroAIController.uc" />
+    <None Include="Classes\UDKMOBAHeroPawn.uc" />
+    <None Include="Classes\UDKMOBAHeroPawnReplicationInfo.uc" />
+    <None Include="Classes\UDKMOBAHeroPawn_Cathode.uc" />
+    <None Include="Classes\UDKMOBAHeroPawn_DemoGuy.uc" />
+    <None Include="Classes\UDKMOBAHUD.uc" />
+    <None Include="Classes\UDKMOBAHUD_Mobile.uc" />
+    <None Include="Classes\UDKMOBAHUD_MobileProperties.uc" />
+    <None Include="Classes\UDKMOBAHUD_PC.uc" />
+    <None Include="Classes\UDKMOBAHUD_PCProperties.uc" />
+    <None Include="Classes\UDKMOBAHUD_Properties.uc" />
+    <None Include="Classes\UDKMOBAItem.uc" />
+    <None Include="Classes\UDKMOBAItem_Buckler.uc" />
+    <None Include="Classes\UDKMOBAItem_Clothes.uc" />
+    <None Include="Classes\UDKMOBAItem_GreatBow.uc" />
+    <None Include="Classes\UDKMOBAItem_GreatStaff.uc" />
+    <None Include="Classes\UDKMOBAItem_LeatherArmor.uc" />
+    <None Include="Classes\UDKMOBAItem_LongBow.uc" />
+    <None Include="Classes\UDKMOBAItem_LongSword.uc" />
+    <None Include="Classes\UDKMOBAItem_Shield.uc" />
+    <None Include="Classes\UDKMOBAItem_ShortBow.uc" />
+    <None Include="Classes\UDKMOBAItem_ShortSword.uc" />
+    <None Include="Classes\UDKMOBAItem_SlingShot.uc" />
+    <None Include="Classes\UDKMOBAItem_Staff.uc" />
+    <None Include="Classes\UDKMOBAItem_SteelArmor.uc" />
+    <None Include="Classes\UDKMOBAItem_Wand.uc" />
+    <None Include="Classes\UDKMOBAMapInfo.uc" />
+    <None Include="Classes\UDKMOBAMinimapInterface.uc" />
+    <None Include="Classes\UDKMOBAObject.uc" />
+    <None Include="Classes\UDKMOBAObjective.uc" />
+    <None Include="Classes\UDKMOBAPawn.uc" />
+    <None Include="Classes\UDKMOBAPawnReplicationInfo.uc" />
+    <None Include="Classes\UDKMOBAPlayerController.uc" />
+    <None Include="Classes\UDKMOBAPlayerController_Mobile.uc" />
+    <None Include="Classes\UDKMOBAPlayerController_PC.uc" />
+    <None Include="Classes\UDKMOBAPlayerProperties.uc" />
+    <None Include="Classes\UDKMOBAPlayerProperties_Mobile.uc" />
+    <None Include="Classes\UDKMOBAPlayerProperties_PC.uc" />
+    <None Include="Classes\UDKMOBAPlayerReplicationInfo.uc" />
+    <None Include="Classes\UDKMOBAPortraitSkeletalMeshActor.uc" />
+    <None Include="Classes\UDKMOBAProjectile.uc" />
+    <None Include="Classes\UDKMOBAProjectile_MissileBarrage_Missile.uc" />
+    <None Include="Classes\UDKMOBAProjectile_Mortar_Shell.uc" />
+    <None Include="Classes\UDKMOBAShopAreaVolume.uc" />
+    <None Include="Classes\UDKMOBASpell.uc" />
+    <None Include="Classes\UDKMOBASpell_Cathode_BoostStomp.uc" />
+    <None Include="Classes\UDKMOBASpell_Cathode_EnergyShield.uc" />
+    <None Include="Classes\UDKMOBASpell_Cathode_Mortar.uc" />
+    <None Include="Classes\UDKMOBASpell_Cathode_SelfDestruct.uc" />
+    <None Include="Classes\UDKMOBASpell_DemoGuy_Avatar.uc" />
+    <None Include="Classes\UDKMOBASpell_DemoGuy_BloodLust.uc" />
+    <None Include="Classes\UDKMOBASpell_DemoGuy_MissileBarrage.uc" />
+    <None Include="Classes\UDKMOBASpell_DemoGuy_MoraleBoost.uc" />
+    <None Include="Classes\UDKMOBAStatsInterface.uc" />
+    <None Include="Classes\UDKMOBAStatsModifier.uc" />
+    <None Include="Classes\UDKMOBATeamInfo.uc" />
+    <None Include="Classes\UDKMOBATouchInterface.uc" />
+    <None Include="Classes\UDKMOBATowerObjective.uc" />
+    <None Include="Classes\UDKMOBATrigger.uc" />
+    <None Include="Classes\UDKMOBAWeaponConeFireMode.uc" />
+    <None Include="Classes\UDKMOBAWeaponFireMode.uc" />
+    <None Include="Classes\UDKMOBAWeaponProjectileFireMode.uc" />
+    <None Include="Classes\UDKMOBAWeaponTraceFireMode.uc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\UDKMOBAItem_Rod.uc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

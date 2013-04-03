@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDKMOBA", "UDKMOBA.vcxproj", "{4537A45B-F14F-4260-AB7D-7646EA9E2857}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "..\Core\Core.vcxproj", "{193D4DFE-3294-4EC6-910E-7FE1EF00B469}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine\Engine.vcxproj", "{61427C0B-D7CD-4E5D-8208-4DC805358153}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameFramework", "..\GameFramework\GameFramework.vcxproj", "{12BAFAE7-E6F6-4715-A288-58B497532940}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDKBase", "..\UDKBase\UDKBase.vcxproj", "{CAF5DF6A-D515-4A81-AD0B-2BD31F99F2C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GFxUI", "..\GFxUI\GFxUI.vcxproj", "{30B52421-404F-4650-8FE3-6338D4294582}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UTGame", "..\UTGame\UTGame.vcxproj", "{04C439F7-891D-466E-936A-DEDCADA2AAA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OnlineSubsystemSteamworks", "..\OnlineSubsystemSteamworks\OnlineSubsystemSteamworks.vcxproj", "{FAEE6710-CE03-4EEC-97B9-FCC59851CB54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4537A45B-F14F-4260-AB7D-7646EA9E2857}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4537A45B-F14F-4260-AB7D-7646EA9E2857}.Debug|Win32.Build.0 = Debug|Win32
+		{4537A45B-F14F-4260-AB7D-7646EA9E2857}.Release|Win32.ActiveCfg = Release|Win32
+		{4537A45B-F14F-4260-AB7D-7646EA9E2857}.Release|Win32.Build.0 = Release|Win32
+		{193D4DFE-3294-4EC6-910E-7FE1EF00B469}.Debug|Win32.ActiveCfg = Debug|Win32
+		{193D4DFE-3294-4EC6-910E-7FE1EF00B469}.Debug|Win32.Build.0 = Debug|Win32
+		{193D4DFE-3294-4EC6-910E-7FE1EF00B469}.Release|Win32.ActiveCfg = Release|Win32
+		{193D4DFE-3294-4EC6-910E-7FE1EF00B469}.Release|Win32.Build.0 = Release|Win32
+		{61427C0B-D7CD-4E5D-8208-4DC805358153}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61427C0B-D7CD-4E5D-8208-4DC805358153}.Debug|Win32.Build.0 = Debug|Win32
+		{61427C0B-D7CD-4E5D-8208-4DC805358153}.Release|Win32.ActiveCfg = Release|Win32
+		{61427C0B-D7CD-4E5D-8208-4DC805358153}.Release|Win32.Build.0 = Release|Win32
+		{12BAFAE7-E6F6-4715-A288-58B497532940}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12BAFAE7-E6F6-4715-A288-58B497532940}.Debug|Win32.Build.0 = Debug|Win32
+		{12BAFAE7-E6F6-4715-A288-58B497532940}.Release|Win32.ActiveCfg = Release|Win32
+		{12BAFAE7-E6F6-4715-A288-58B497532940}.Release|Win32.Build.0 = Release|Win32
+		{CAF5DF6A-D515-4A81-AD0B-2BD31F99F2C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CAF5DF6A-D515-4A81-AD0B-2BD31F99F2C1}.Debug|Win32.Build.0 = Debug|Win32
+		{CAF5DF6A-D515-4A81-AD0B-2BD31F99F2C1}.Release|Win32.ActiveCfg = Release|Win32
+		{CAF5DF6A-D515-4A81-AD0B-2BD31F99F2C1}.Release|Win32.Build.0 = Release|Win32
+		{30B52421-404F-4650-8FE3-6338D4294582}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30B52421-404F-4650-8FE3-6338D4294582}.Debug|Win32.Build.0 = Debug|Win32
+		{30B52421-404F-4650-8FE3-6338D4294582}.Release|Win32.ActiveCfg = Release|Win32
+		{30B52421-404F-4650-8FE3-6338D4294582}.Release|Win32.Build.0 = Release|Win32
+		{04C439F7-891D-466E-936A-DEDCADA2AAA3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04C439F7-891D-466E-936A-DEDCADA2AAA3}.Debug|Win32.Build.0 = Debug|Win32
+		{04C439F7-891D-466E-936A-DEDCADA2AAA3}.Release|Win32.ActiveCfg = Release|Win32
+		{04C439F7-891D-466E-936A-DEDCADA2AAA3}.Release|Win32.Build.0 = Release|Win32
+		{FAEE6710-CE03-4EEC-97B9-FCC59851CB54}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAEE6710-CE03-4EEC-97B9-FCC59851CB54}.Debug|Win32.Build.0 = Debug|Win32
+		{FAEE6710-CE03-4EEC-97B9-FCC59851CB54}.Release|Win32.ActiveCfg = Release|Win32
+		{FAEE6710-CE03-4EEC-97B9-FCC59851CB54}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

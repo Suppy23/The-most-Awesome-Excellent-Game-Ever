@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="Classes\UDKMOBACamera.uc">
+      <Filter>Camera</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACameraProperties.uc">
+      <Filter>Camera</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACreepAIController.uc">
+      <Filter>Creeps</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACreepFactory.uc">
+      <Filter>Creeps</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACreepPawn.uc">
+      <Filter>Creeps</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACreepRoute.uc">
+      <Filter>Creeps</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell.uc">
+      <Filter>Gameplay\Spells</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_Cathode_BoostStomp.uc">
+      <Filter>Gameplay\Spells\Cathode</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_Cathode_EnergyShield.uc">
+      <Filter>Gameplay\Spells\Cathode</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_Cathode_Mortar.uc">
+      <Filter>Gameplay\Spells\Cathode</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_Cathode_SelfDestruct.uc">
+      <Filter>Gameplay\Spells\Cathode</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_DemoGuy_Avatar.uc">
+      <Filter>Gameplay\Spells\DemoGuy</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_DemoGuy_BloodLust.uc">
+      <Filter>Gameplay\Spells\DemoGuy</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_DemoGuy_MissileBarrage.uc">
+      <Filter>Gameplay\Spells\DemoGuy</Filter>
+    </None>
+    <None Include="Classes\UDKMOBASpell_DemoGuy_MoraleBoost.uc">
+      <Filter>Gameplay\Spells\DemoGuy</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHeroAIController.uc">
+      <Filter>Heroes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHeroPawn.uc">
+      <Filter>Heroes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHeroPawn_Cathode.uc">
+      <Filter>Heroes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHeroPawn_DemoGuy.uc">
+      <Filter>Heroes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHUD.uc">
+      <Filter>HUD</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHUD_Properties.uc">
+      <Filter>HUD</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAMinimapInterface.uc">
+      <Filter>Interfaces</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAAttackInterface.uc">
+      <Filter>Interfaces</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAStatsInterface.uc">
+      <Filter>Interfaces</Filter>
+    </None>
+    <None Include="Classes\UDKMOBATouchInterface.uc">
+      <Filter>Interfaces</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAAncientObjective.uc">
+      <Filter>Objectives</Filter>
+    </None>
+    <None Include="Classes\UDKMOBATowerObjective.uc">
+      <Filter>Objectives</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAObjective.uc">
+      <Filter>Objectives</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHUD_Mobile.uc">
+      <Filter>Platforms\Mobile</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHUD_MobileProperties.uc">
+      <Filter>Platforms\Mobile</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPlayerController_Mobile.uc">
+      <Filter>Platforms\Mobile</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPlayerProperties_Mobile.uc">
+      <Filter>Platforms\Mobile</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHUD_PC.uc">
+      <Filter>Platforms\PC</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHUD_PCProperties.uc">
+      <Filter>Platforms\PC</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPlayerController_PC.uc">
+      <Filter>Platforms\PC</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPlayerProperties_PC.uc">
+      <Filter>Platforms\PC</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPortraitSkeletalMeshActor.uc">
+      <Filter>Platforms\PC</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAWeaponConeFireMode.uc">
+      <Filter>Engine\FireModes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAWeaponFireMode.uc">
+      <Filter>Engine\FireModes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAWeaponProjectileFireMode.uc">
+      <Filter>Engine\FireModes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAWeaponTraceFireMode.uc">
+      <Filter>Engine\FireModes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAAIController.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACheatManager.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBADynamicObstacle.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGameInfo.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGameProperties.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGameReplicationInfo.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGroundBlockingVolume.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAMapInfo.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAObject.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPawn.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPlayerController.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPlayerProperties.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPlayerReplicationInfo.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAStatsModifier.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBATeamInfo.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBADecalActorSpawnable.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAProjectile_MissileBarrage_Missile.uc">
+      <Filter>Gameplay\Spells\DemoGuy</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACommandInterface.uc">
+      <Filter>Interfaces</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAHeroPawnReplicationInfo.uc">
+      <Filter>Heroes</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAPawnReplicationInfo.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxSpellIconObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBATrigger.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxMinimapIconObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxHUDProperties.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxMinimapLineDrawingObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACamera_PC.uc">
+      <Filter>Platforms\PC</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACamera_Mobile.uc">
+      <Filter>Platforms\Mobile</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACameraProperties_Mobile.uc">
+      <Filter>Platforms\Mobile</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACameraProperties_PC.uc">
+      <Filter>Platforms\PC</Filter>
+    </None>
+    <None Include="Classes\UDKMOBABuff.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBADoT.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxShopListWidget.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAMinimapLineDrawing.as">
+      <Filter>GFx\Actionscript</Filter>
+    </None>
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAMinimapPing.as">
+      <Filter>GFx\Actionscript</Filter>
+    </None>
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBASpellIcon.as">
+      <Filter>GFx\Actionscript</Filter>
+    </None>
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAShopList.as">
+      <Filter>GFx\Actionscript</Filter>
+    </None>
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAShopListItemRenderer.as">
+      <Filter>GFx\Actionscript</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_Buckler.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_Clothes.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_GreatBow.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_GreatStaff.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_GreatSword.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_LeatherArmor.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_LongBow.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_LongSword.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_Shield.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_ShortBow.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_SlingShot.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_Staff.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_SteelArmor.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_Wand.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_Dagger.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAShopAreaVolume.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="..\..\..\UDKGame\Flash\UDKMOBAHud\com\scaleform\hud\MOBAMessage.as">
+      <Filter>GFx\Actionscript</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxTowerStatusBarObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAItem_ShortSword.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBADroppedItem.uc">
+      <Filter>Gameplay\Items</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAProjectile.uc">
+      <Filter>Engine</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxHUD.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxCreepStatusBarObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxHeroStatusBarObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBACreepReplicationInfo.uc">
+      <Filter>Creeps</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxMainMenuObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAGFxHeroSelectionObject.uc">
+      <Filter>GFx</Filter>
+    </None>
+    <None Include="Classes\UDKMOBAProjectile_Mortar_Shell.uc">
+      <Filter>Gameplay\Spells\Cathode</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{252d3296-5a1a-43b8-b6c0-4695b91181cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Items">
+      <UniqueIdentifier>{df3dcb40-2af9-4e64-8c33-88c97de4ec0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Spells">
+      <UniqueIdentifier>{dd97a367-369a-43aa-8791-cefb56e89111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{84acad77-eece-486c-9608-818a558452ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2b31a75b-86c2-4fa4-be6d-0e9a546d04f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{21480df9-225d-42df-9add-27bf7504c6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creeps">
+      <UniqueIdentifier>{68c54fcc-1d49-4184-b6a2-b7d2631bf1ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objectives">
+      <UniqueIdentifier>{c6862da9-9db4-445f-bddf-86afecfc8b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Spells\DemoGuy">
+      <UniqueIdentifier>{244bcf02-481e-44c0-bb98-1b61605914b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Spells\Cathode">
+      <UniqueIdentifier>{0f7c4743-2acd-4e51-b410-3aed49ffa078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\FireModes">
+      <UniqueIdentifier>{0cbf5f3b-e9dd-4e27-80a1-d7da073ac3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD">
+      <UniqueIdentifier>{66955ede-626a-4397-8b72-8a6031e509bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{4857d9ca-b186-4d8a-b703-8aa56b065253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\PC">
+      <UniqueIdentifier>{682e70cb-0a53-4602-b04d-b4146debc0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Mobile">
+      <UniqueIdentifier>{aebad407-ea71-4f58-8df1-238042c2e933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Heroes">
+      <UniqueIdentifier>{c75eaacd-26c8-41f4-8e72-9f26d9cbc4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GFx">
+      <UniqueIdentifier>{5ddc31da-a011-4ad7-9ac3-492b14e3c722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GFx\Actionscript">
+      <UniqueIdentifier>{73209dd7-5bd9-4ebf-b7b7-98b9ed38e833}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\UDKMOBAItem_Rod.uc">
+      <Filter>Gameplay\Items</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
